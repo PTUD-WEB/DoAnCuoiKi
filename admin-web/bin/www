@@ -39,7 +39,7 @@ server.on('listening', onListening);
     console.error('Unable to connect to the database:', error);
   }
 }
-)();
+)(); 
 
 /**
  * Normalize a port into a number, string, or false.

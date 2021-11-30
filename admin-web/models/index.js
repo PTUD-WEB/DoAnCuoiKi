@@ -10,6 +10,6 @@ const sequelize = new Sequelize(connPostgresString, {
         rejectUnauthorized: false
     }
     }
-  });
+  }); 
 
 module.exports=sequelize;

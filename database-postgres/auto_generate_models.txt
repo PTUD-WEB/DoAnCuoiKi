@@ -1,0 +1,11 @@
+sequelize-auto -h <host> -d <database> -u <user> -x [password] -p [port]  --dialect [dialect] -c [/path/to/config] -o [/path/to/models] -t [tableName]
+sequelize-auto -o "./models" -d sequelize_auto_test -h localhost -u my_username -p 5432 -x my_password -e postgres
+
+sequelize-auto -o "./models" -d d75gjnh8aca4q1 -h ec2-3-227-149-67.compute-1.amazonaws.com -u wxjfftihybqpun -p 5432 -x 584926c1c528115d979e1e2cd8ac86a41acc3da6b44eaefdb5be61662790a3de -s public -e postgres
+
+- on windows
+node ./node_modules/sequelize-auto/bin/sequelize-auto -o "./models" -d d75gjnh8aca4q1 -h ec2-3-227-149-67.compute-1.amazonaws.com -u wxjfftihybqpun -p 5432 -x 584926c1c528115d979e1e2cd8ac86a41acc3da6b44eaefdb5be61662790a3de -s public -e postgres
+
+======================================================================================
+-localhost
+node ./node_modules/sequelize-auto/bin/sequelize-auto -o "./models" -d webbanhang -h localhost -u postgres -p 5432 -x KJPAMI -s public -e postgres
